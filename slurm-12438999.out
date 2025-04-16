@@ -1,0 +1,2 @@
+/leonardo/home/userexternal/jcarr000/venvs/ferminet_gino/bin/python: can't open file '/leonardo_work/FUAL8_NWPAV/jamie/scripts/ethyl_quantum_train.py': [Errno 2] No such file or directory
+srun: error: lrdn3359: task 0: Exited with exit code 2
