@@ -456,12 +456,12 @@ def run():
                 legend_labels.append(legend_label)
 
         # Set primary axis labels and limits
-        ax.set_xlabel("Electron-muon separation r (bohr)")
+        ax.set_xlabel("Electron-muon separation r (Bohr)")
         ax.set_ylabel("g(r)")
         if category == "muonium":
-            ax.set_title(f"{category.capitalize()} Muon Spin Correlation Function")
+            ax.set_title(f"{category.capitalize()} Electron Spin Density")
         else:
-            ax.set_title(f"{category.capitalize()} Muon Spin Correlation Functions")
+            ax.set_title(f"{category.capitalize()} Electron Spin Density")
 
         # Set specific y-axis limits for each category
         if category == "methyl":

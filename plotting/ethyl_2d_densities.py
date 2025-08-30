@@ -295,8 +295,8 @@ def plot_density_projections(
     )
 
     ax_xy.set_title("XY Projection")
-    ax_xy.set_xlabel("X (bohr)")
-    ax_xy.set_ylabel("Y (bohr)")
+    ax_xy.set_xlabel("X (Bohr)")
+    ax_xy.set_ylabel("Y (Bohr)")
     ax_xy.yaxis.labelpad = -5
     add_atom_markers(ax_xy, "xy", exclude=["H4"])
     ax_xy.grid(alpha=0.3, linestyle=":")
@@ -322,8 +322,8 @@ def plot_density_projections(
     )
 
     ax_xz.set_title("XZ Projection")
-    ax_xz.set_xlabel("X (bohr)")
-    ax_xz.set_ylabel("Z (bohr)")
+    ax_xz.set_xlabel("X (Bohr)")
+    ax_xz.set_ylabel("Z (Bohr)")
     ax_xz.yaxis.labelpad = -5
     add_atom_markers(ax_xz, "xz", exclude=["H4"])
     ax_xz.grid(alpha=0.3, linestyle=":")
@@ -349,8 +349,8 @@ def plot_density_projections(
     )
 
     ax_yz.set_title("YZ Projection")
-    ax_yz.set_xlabel("Y (bohr)")
-    ax_yz.set_ylabel("Z (bohr)")
+    ax_yz.set_xlabel("Y (Bohr)")
+    ax_yz.set_ylabel("Z (Bohr)")
     ax_yz.yaxis.labelpad = -5
     add_atom_markers(ax_yz, "yz", exclude=["H4"])
     ax_yz.grid(alpha=0.3, linestyle=":")
